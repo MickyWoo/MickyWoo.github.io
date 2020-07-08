@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+
+
+
     <link rel="icon" type="image/png" href="Images/avatar3.png">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -20,11 +32,11 @@
 
     <!-- Navigation -->
 
-    <nav id="scroll-nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="scroll-nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
         <!-- Icon Brand -->
         <a class="navbar-brand" href="#">
-            <img src="Images/avatar3.png" width="30" height="30" class="d-inline-block align-top" alt="Icon">
+            <img src="Images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Icon">
             Micky Woo
         </a>
 
@@ -37,13 +49,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only"></span></a>
+                    <a class="nav-link" href="#About">About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects </a>
+                    <a class="nav-link" href="#Projects">Projects </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#Skills">Skills</a>
                 </li>
             </ul>
         </div>
@@ -51,13 +63,29 @@
 
 
     <!-- About -->
-    <section id="About">
-        <container>
-            <div>
-                <p>dfg
 
-                </p>
+    <div class="main">
+        <div class="Personalimg">
+            <img src="Images/getavataaars.png" alt="avatar">
+        </div>
+    </div>
+
+    <section id="About" class="about-section">
+        <container class="col-lg-2">
+            <div class="slide-up border">
+                <p>Eager new developer that just took his first steps not 8 months ago with over 10 years of customer
+                    service experience </p>
             </div>
+            <div class="slide-up border">
+                <p>Seattle University’s Web Development Certificate Program </p>
+            </div>
+            <div class="slide-up border">
+                <p>Enjoy trying new fun possibilities with CSS/HTML but enjoy a simple design</p>
+            </div>
+            <div class="slide-up border">
+                <p> I hope to achieve a position in the software development field to flourish in </p>
+            </div>
+
 
         </container>
 
@@ -91,24 +119,39 @@
 
     <!-- Footer -->
     <footer class="bg-dark small text-center text-white ">
-        <div class="row  "  > 
-            <li class="nav-item active share-links">
-                <a class="nav-link" href="https://github.com/MickyWoo" target="_blank"><img src="Images/Github icon.png" width="50" height="50" class="d-inline-block " alt="Icon"> <span
-                          class="sr-only"> </span> Github  </a> 
-           </li>
-           <li class="nav-item active share-links">
-                <a class="nav-link" href="http://mickywoo.com/" target="_blank">Personal Website <span
-                          class="sr-only"></span></a>
-           </li>
-           <li class="nav-item active share-links">
-            <a class="nav-link" href="https://www.linkedin.com/in/micky-woo-9a47981b0/" target="_blank"><img src="Images/LinkedIn-Icon.png" width="50" height="50" class="d-inline-block " alt="Icon"> <span
-                      class="sr-only"> </span> LinkedIn  </a> 
-       </li>
-         
-
-        </div>
         <div class="container">
-            Copyright &copy; Micky Woo Jul 2020
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/micky-woo-9a47981b0/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://mickywoo.com/" target="_blank">
+                                <span class="fa-stack fa-lg">
+
+                                    <img class="icon" src="Images/logo.png" alt="Icon">
+
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/MickyWoo" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted"> Copyright &copy; Micky Woo Jul 2020</p>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -124,6 +167,9 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
     </script>
 
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
     <!-- SmoothScroll Script  
 https://cdnjs.com/libraries/smooth-scroll-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
@@ -134,13 +180,13 @@ https://github.com/cferdinandi/smooth-scroll -->
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
 
-    <!-- Animation  -->
+    <!-- Animation 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 3000,
         })
-    </script>
+    </script> -->
 
 
     <!-- 

@@ -1,3 +1,66 @@
+.main {
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("../Images/code-background.png");
+background-attachment: fixed;
+padding: 5%;
+font-size: 2rem;
+}
+
 footer {
     padding: 5rem 0
+}
+
+/* circular icon */
+.icon {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .Personalimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+   
+    max-width: 100%;
+  }
+
+  /* Animation for slide UP */
+  @keyframes slide-up {
+    from {
+        
+        opacity: .25;
+        line-height: 500px;
+    }
+    to {
+        
+        opacity: 1;
+        line-height: 25px;
+    }
+}
+
+.slide-up {
+    animation: slide-up 4s;
+}
+
+  /* END Animation for slide UP */
+
+
+.about-section{
+    text-align: center;
+    font-size: 22px;
+ 
+}
+.border{
+border-radius: 25px;
+  border: 5px solid #406e00 !important;
+  padding: 15px; 
+ 
 }
