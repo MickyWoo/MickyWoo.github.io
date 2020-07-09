@@ -14,12 +14,13 @@ footer {
 
 /* circular icon */
 .icon {
-    padding: 20px;
+
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    justify-content: center;
   }
 
   .Personalimg img{
@@ -65,13 +66,8 @@ border-radius: 25px;
 }
 
 /* Flip-box animation  */
-#Skills{
-  
-  display: flex;
+#Skills .row{
   justify-content: center;
-  align-items: center;
-
- 
 }
 .icons{
   display: flex;
@@ -85,7 +81,7 @@ border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  max-width: 75%;
   text-align: center;
 }
 
@@ -148,7 +144,16 @@ border-radius: 25px;
 
 }
 
-.row{
-  width: 75%;
-padding-top: 10px;
+.flip-box-back  .row{
+
+  width: 70%;
+
+align-items: center;
 }
+
+.spacer{
+  width:300px;
+  height: 300px;
+}
+
+
