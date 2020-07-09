@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
-<body data-spy="scroll" data-target="#scroll-nav" data-offset="400">
+<body data-spy="scroll" data-target="#scroll-nav" data-offset="200">
 
 
     <!-- Navigation -->
@@ -55,7 +55,7 @@
                     <a class="nav-link" href="#Projects">Projects </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Skills">Skills</a>
+                    <a class="nav-link" href="#ScrolltoSkills">Skills</a>
                 </li>
             </ul>
         </div>
@@ -71,11 +71,13 @@
             <img src="Images/getavataaars.png" alt="avatar">
         </div>
     </div>
-    
+
 
     <section id="About" class="about-section">
         <br>
-        <div> <h>About ME</h> </div>
+        <div>
+            <h>About ME</h>
+        </div>
         <container class="col-lg-2">
             <div class="slide-up border">
                 <p>Eager new developer that just took his first steps not 8 months ago with over 10 years of customer
@@ -95,115 +97,128 @@
         </container>
 
     </section>
-    <div class="spacer">
+    <div id="ScrolltoSkills" class="spacer">
         <br>
-    
+
     </div>
-    
+
 
     <!-- Skills -->
     <section id="Skills">
         <div class="row">
 
-        <div class="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front">
-                    <h2>Fundementals</h2>
-                </div>
-                <div class="flip-box-back icons ">
-                   
-                    <!-- row encompass to allow overflow instead of single 1x3  -->
-                    <div class="row">
-                       <!-- col-sm-6 to set 2x2 Grid Effect  -->
-                        <div class=" grid" > 
-                            <img  src="Images/Javascript-icon.png" alt="Javascript-icon">
-                            <p>Javascript </p>
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Fundementals</h2>
+                    </div>
+                    <div class="flip-box-back icons ">
+
+                        <!-- row encompass to allow overflow instead of single 1x3  -->
+                        <div class="row">
+                            <!-- col-sm-6 to set 2x2 Grid Effect  -->
+                            <div class=" grid">
+                                <img src="Images/Javascript-icon.png" alt="Javascript-icon">
+                                <p>Javascript </p>
+                            </div>
+                            <div class="grid">
+                                <img src="Images/HTML-icon.png" alt="HTML-icon">
+                                <p>HTML 5 </p>
+                            </div>
+
+                            <div class="grid">
+                                <img src="Images/css-icon.png" alt="css-icon">
+                                <p>CSS 3 </p>
+                            </div>
+
                         </div>
-                        <div class="grid">
-                            <img src="Images/HTML-icon.png" alt="HTML-icon">
-                            <p>HTML 5 </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- skills 2 -->
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Frameworks & Technologies</h2>
+                    </div>
+                    <div class="flip-box-back icons  grid2x2">
+
+
+                        <div class="row">
+                            <div class="grid"> <img src="Images/git-icon.png" alt="git-icon">
+                                <p>Git</p>
+                            </div>
+                            <div class="grid">
+                                <img src="Images/boostrap-icon.png" alt="boostrap-icon">
+                                <p>Bootstrap </p>
+                            </div>
+                            <div class="grid">
+                                <img src="Images/vue-icon.png" alt="vue-icon">
+                                <p>Vue.js </p>
+                            </div>
                         </div>
 
-                        <div class="grid">
-                            <img src="Images/css-icon.png" alt="css-icon">
-                            <p>CSS 3 </p>
-                        </div>
 
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <!-- skills 2 -->
-        <div class="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front">
-                    <h2>Frameworks & Technologies</h2>
-                </div>
-                <div class="flip-box-back icons  grid2x2">
-                  
-
-                    <div class="row">
-                        <div class="grid" > <img src="Images/git-icon.png" alt="git-icon">
-                            <p>Git</p>
-                        </div>
-                        <div class="grid">
-                            <img src="Images/boostrap-icon.png" alt="boostrap-icon">
-                            <p>Bootstrap </p>
-                        </div>
-                        <div class="grid">
-                            <img src="Images/vue-icon.png" alt="vue-icon">
-                            <p>Vue.js </p>
-                        </div>
+            <!-- skills 3 -->
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>Server & Backend</h2>
                     </div>
+                    <div class="flip-box-back icons">
 
-                    
-                </div>
-            </div>
-        </div>
-        <!-- skills 3 -->
-        <div class="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front">
-                    <h2>Server & Backend</h2>
-                </div>
-                <div class="flip-box-back icons">
-                    
 
-                    <div class="row">
-                        <div class="grid" > <img src="Images/ubunto-icon.png" alt="ubunto-icon">
-                            <p>Ubunto  </p>
-                        </div>
-                        <div class="grid">
-                            <img src="Images/Apache-icon.jpg" alt="Apache-icon">
-                            <p>Apache </p>
-                        </div>
-                        <div class="grid">
-                            <img src="Images/node-icon.png" alt="node-icon">
-                            <p>Node.js</p>
-                        </div>
+                        <div class="row">
+                            <div class="grid"> <img src="Images/ubunto-icon.png" alt="ubunto-icon">
+                                <p>Ubunto </p>
+                            </div>
+                            <div class="grid">
+                                <img src="Images/Apache-icon.jpg" alt="Apache-icon">
+                                <p>Apache </p>
+                            </div>
+                            <div class="grid">
+                                <img src="Images/node-icon.png" alt="node-icon">
+                                <p>Node.js</p>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
 
     </section>
 
+    <div class="spacer">
+        <br>
+
+    </div>
+
+    <!-- Skills END -->
 
 
     <!-- Projects -->
     <section id="Projects" class=" bg-dark">
-        <container>
-            <div>
-                <p class="text-center text-white">dfg
+        <div class="container">
+            <div class="row ">
+                <div class="grid " >
+                   <a  href="http://mickywoo.com/wats-4000-final/#/" target="_blank" > <img  src="Images/wats4000-final-project-screenshot.jpg" alt="project1-screenshot"> </a>
 
-                </p>
+                </div>
+                <div class="grid context ">
+                    <h2 class="text-white"> Apr 2020</h2>
+                    <p class="text-white"> A very fun Project using SPA along side a Pokemon API to display a simulated Booster Pack and
+                        Card Search </p>
+                </div>
+
             </div>
-        </container>
+        </div>
     </section>
 
 
@@ -212,40 +227,40 @@
 
     <!-- Footer -->
     <footer class="bg-dark small text-center text-white ">
-     
-            <div class="row">
-                <div class="col">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/micky-woo-9a47981b0/" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="http://mickywoo.com/" target="_blank">
-                                <span class="fa-stack fa-lg">
 
-                                    <img class="icon" src="Images/logo.png" alt="Icon">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/micky-woo-9a47981b0/" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="http://mickywoo.com/" target="_blank">
+                            <span class="fa-stack fa-lg">
 
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/MickyWoo" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted"> Copyright &copy; Micky Woo Jul 2020</p>
-                </div>
+                                <img class="icon" src="Images/logo.png" alt="Icon">
+
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/MickyWoo" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted"> Copyright &copy; Micky Woo Jul 2020</p>
             </div>
-        
+        </div>
+
     </footer>
 
 
