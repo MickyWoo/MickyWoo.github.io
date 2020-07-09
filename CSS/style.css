@@ -77,17 +77,20 @@ border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: auto;
+  
   justify-items: center;
 }
+
 .icons img{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-
+  width: 75%;
+  text-align: center;
 }
+
+
+
 
 .flip-box {
   background-color: transparent;
@@ -140,6 +143,12 @@ border-radius: 25px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
-
   align-items: center;
+  
+
+}
+
+.row{
+  width: 75%;
+padding-top: 10px;
 }
