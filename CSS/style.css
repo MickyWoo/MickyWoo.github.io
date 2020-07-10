@@ -64,6 +64,7 @@ footer {
 border-radius: 25px;
   border: 5px solid #406e00 !important;
   padding: 15px; 
+  margin: 5px;
  
 }
 
@@ -110,7 +111,7 @@ max-width: 50%;
   perspective: 1000px;
   text-align: center;
   align-items: center;
-
+  margin: 5px;
  
 }
 
@@ -175,13 +176,13 @@ Projects CSS Start */
 .box{
   height:300px;
   margin: auto;
-  padding: 5px;
+
 
 }
 
 #Projects .row{
-  justify-content: space-between;
-  
+  justify-content: center;
+ 
 }
 
 #Projects img{
@@ -189,6 +190,7 @@ Projects CSS Start */
   filter: grayscale(100%);
   transition: all 2.5s ease-in-out; 
   flex: 0 0 50%;
+  padding-top: 10%;
 
 }
 
