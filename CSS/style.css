@@ -185,7 +185,7 @@ Projects CSS Start */
 }
 
 #Projects img{
-  max-width:90%;
+  max-width:75%;
   filter: grayscale(100%);
   transition: all 2.5s ease-in-out; 
   flex: 0 0 50%;
