@@ -88,10 +88,7 @@ border-radius: 25px;
   text-align: center;
 }
 
-/* .col-sm-6{
-  flex: 0 0 50%;
-max-width: 50%;
-}  */
+
 .grid{
   flex: 0 0 45%;
   /* max-width: 50%; */
@@ -112,6 +109,7 @@ max-width: 50%;
   text-align: center;
   align-items: center;
   margin: 5px;
+  overflow: hidden;
  
 }
 
@@ -165,13 +163,12 @@ max-width: 50%;
 }
 
 .spacer{
-  width:300px;
-  height: 250px;
+
+  height: 150px;
 }
 
 
-/* 
-Projects CSS Start */
+/*  Projects CSS Start */
 
 .box{
   height:300px;
@@ -190,7 +187,7 @@ Projects CSS Start */
   filter: grayscale(100%);
   transition: all 2.5s ease-in-out; 
   flex: 0 0 50%;
-  padding-top: 10%;
+  padding-top: 45px;
 
 }
 
