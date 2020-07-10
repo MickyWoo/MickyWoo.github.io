@@ -7,7 +7,9 @@ background-image: url("../Images/code-background.png");
 background-attachment: fixed;
 padding: 5%;
 }
-
+p{
+  margin: auto;
+}
 footer {
     padding: 5rem 0
 }
@@ -81,7 +83,7 @@ border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 75%;
+  max-width: 90%;
   text-align: center;
 }
 
@@ -90,7 +92,7 @@ border-radius: 25px;
 max-width: 50%;
 }  */
 .grid{
-  flex: 0 0 50%;
+  flex: 0 0 45%;
   /* max-width: 50%; */
   /* display: flex; */
   justify-content: center;
@@ -166,14 +168,31 @@ max-width: 50%;
   height: 250px;
 }
 
-.grid img{
-  max-width:100%;
-  filter: grayscale(100%);
-  transition: all 2s ease-in-out; 
+
+/* 
+Projects CSS Start */
+
+.box{
+  height:300px;
+  margin: auto;
+  padding: 5px;
 
 }
 
-.grid img:hover{
+#Projects .row{
+  justify-content: space-between;
+  
+}
+
+#Projects img{
+  max-width:90%;
+  filter: grayscale(100%);
+  transition: all 2.5s ease-in-out; 
+  flex: 0 0 50%;
+
+}
+
+#Projects img:hover{
   
     -webkit-filter: none;
     -moz-filter: none;
@@ -186,5 +205,15 @@ max-width: 50%;
 
 .context{
   display:flex;
+
 }
 
+
+.border-left{
+  border-left: .3rem solid darksalmon !important;
+
+
+}
+.border-right{
+  border-right: .3rem solid darksalmon !important;
+}
